@@ -1,6 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 from pydoc import doc
 
+# teste 01
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
