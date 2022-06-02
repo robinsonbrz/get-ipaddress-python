@@ -4,11 +4,10 @@ Teste de Deploy Vercel
 
 
 # Exibe o IP em Python - Deployed on Vercel
-##  Pequena api que retorna o endereço de IP público que fez acesso
+##  Pequena api que retorna o endereço de IP público do client que fez acesso
 
 ### Aplicação serverless publicada na Vercel
 
-Retorna o IP pública de quem está acessando
 
 
 <br>
@@ -42,15 +41,18 @@ Visite meu WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
 
 Criar uma aplicação serverless e hospedá-la na Vercel.
 
-O intuito era o ter sucesso no deploy de funções Python na Vercel, e ser possível de observar o resultado.
+O intuito era ter sucesso no deploy de funções Python na Vercel, e ser possível observar o resultado.
 
 A entrada para a função está em [https://get-ipaddress-python.vercel.app/api](https://get-ipaddress-python.vercel.app/api)
 
 Foi criado um apontamento para um subdomínio de minha titularidade [https://ip.enedino.com.br/api](https://ip.enedino.com.br/api)
+
+Com o auxílio da Cloudfare.
+
 <br><br>
 
 ## Próximas features 
-Em outro projeto estarei subindo um CRUD API codificado com a FASTAPI na Vercel.
+Em outro projeto estarei subindo um CRUD API codado em FASTAPI na Vercel.
 <br><br>
 
 ## Vizualização do serviço
