@@ -1,5 +1,4 @@
 from http.server import BaseHTTPRequestHandler
-from pydoc import doc
 
 
 class handler(BaseHTTPRequestHandler):
